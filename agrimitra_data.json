@@ -1,0 +1,520 @@
+{
+  "crops": [
+    {
+      "id": "rice",
+      "name": "Rice / Paddy",
+      "teluguName": "వరి",
+      "hindiName": "चावल / धान",
+      "category": "cereals",
+      "season": "Kharif & Rabi",
+      "soil": "Clayey loam, alluvial soil with good water retention",
+      "water": "1200 - 1500 mm (High)",
+      "harvest": "115 - 145 days",
+      "image": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?auto=format&fit=crop&w=800&q=80",
+      "overview": "Staple grain crop across India. Thrives in submerged conditions during vegetative phase and warm sunny conditions at maturity.",
+      "stages": [
+        "Land Puddling",
+        "Nursery Raising",
+        "Transplanting",
+        "Tillering",
+        "Panicle Initiation",
+        "Flowering",
+        "Dough Stage",
+        "Harvesting"
+      ],
+      "commonPests": "Yellow Stem Borer, Brown Planthopper (BPH), Leaf Blast, Bacterial Leaf Blight (BLB)",
+      "svgFallback": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22500%22%20viewBox%3D%220%200%20800%20500%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grad_Rice%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22rgb%2822%2C%20101%2C%2052%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22rgb%2820%2C%2083%2C%2045%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22rgb%285%2C%2046%2C%2022%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%20%20%3C/defs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22500%22%20fill%3D%22url%28%23grad_Rice%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Stylized%20rolling%20fields%20--%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20320%20Q%20200%20270%20400%20320%20T%20800%20310%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%286%2C%2078%2C%2059%2C%200.75%29%22%20/%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20370%20Q%20250%20320%20500%20360%20T%20800%20350%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%285%2C%2046%2C%2022%2C%200.95%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Sun%20glow%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2270%22%20fill%3D%22rgba%28253%2C%20224%2C%2071%2C%200.35%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2245%22%20fill%3D%22rgba%28254%2C%20240%2C%20138%2C%200.7%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Central%20badge%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2285%22%20fill%3D%22%23ffffff%22%20filter%3D%22drop-shadow%280%2010px%2020px%20rgba%280%2C0%2C0%2C0.25%29%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2275%22%20fill%3D%22%23fcfbf7%22%20stroke%3D%22rgb%2820%2C%2083%2C%2045%29%22%20stroke-width%3D%224%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22218%22%20font-size%3D%2270%22%20text-anchor%3D%22middle%22%20font-family%3D%22Apple%20Color%20Emoji%2C%20Segoe%20UI%20Emoji%2C%20sans-serif%22%3E%F0%9F%8C%BE%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Title%20badge%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22220%22%20y%3D%22295%22%20width%3D%22360%22%20height%3D%2244%22%20rx%3D%2222%22%20fill%3D%22%23052e16%22%20stroke%3D%22rgba%28255%2C255%2C255%2C0.3%29%22%20stroke-width%3D%221.5%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22324%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3ERice%20%E2%80%A2%20%E0%B0%B5%E0%B0%B0%E0%B0%BF%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Certified%20Tag%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22270%22%20y%3D%22350%22%20width%3D%22260%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22%23eab308%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22369%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%231c1917%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EAGRIMITRA%20SCIENTIFIC%20GUIDE%3C/text%3E%0A%20%20%20%20%3C/svg%3E"
+    },
+    {
+      "id": "wheat",
+      "name": "Wheat",
+      "teluguName": "గోధుమ",
+      "hindiName": "गेहूं",
+      "category": "cereals",
+      "season": "Rabi (Winter)",
+      "soil": "Well-drained fertile loamy & clay loam soils",
+      "water": "450 - 650 mm (Moderate)",
+      "harvest": "110 - 130 days",
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=800&q=80",
+      "overview": "Premier Rabi cereal demanding cool weather during tillering and warm sunny weather during grain filling and ripening.",
+      "stages": [
+        "Ploughing & Levelling",
+        "Seed Treatment",
+        "Crown Root Initiation (CRI)",
+        "Tillering",
+        "Jointing",
+        "Heading",
+        "Milking",
+        "Harvesting"
+      ],
+      "commonPests": "Yellow & Brown Rust, Loose Smut, Aphids, Termites",
+      "svgFallback": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22500%22%20viewBox%3D%220%200%20800%20500%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grad_Wheat%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22rgb%28161%2C%2098%2C%207%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22rgb%28133%2C%2077%2C%2014%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22rgb%2869%2C%2026%2C%203%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%20%20%3C/defs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22500%22%20fill%3D%22url%28%23grad_Wheat%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Stylized%20rolling%20fields%20--%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20320%20Q%20200%20270%20400%20320%20T%20800%20310%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%286%2C%2078%2C%2059%2C%200.75%29%22%20/%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20370%20Q%20250%20320%20500%20360%20T%20800%20350%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%285%2C%2046%2C%2022%2C%200.95%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Sun%20glow%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2270%22%20fill%3D%22rgba%28253%2C%20224%2C%2071%2C%200.35%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2245%22%20fill%3D%22rgba%28254%2C%20240%2C%20138%2C%200.7%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Central%20badge%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2285%22%20fill%3D%22%23ffffff%22%20filter%3D%22drop-shadow%280%2010px%2020px%20rgba%280%2C0%2C0%2C0.25%29%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2275%22%20fill%3D%22%23fcfbf7%22%20stroke%3D%22rgb%28133%2C%2077%2C%2014%29%22%20stroke-width%3D%224%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22218%22%20font-size%3D%2270%22%20text-anchor%3D%22middle%22%20font-family%3D%22Apple%20Color%20Emoji%2C%20Segoe%20UI%20Emoji%2C%20sans-serif%22%3E%F0%9F%8C%BE%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Title%20badge%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22220%22%20y%3D%22295%22%20width%3D%22360%22%20height%3D%2244%22%20rx%3D%2222%22%20fill%3D%22%23052e16%22%20stroke%3D%22rgba%28255%2C255%2C255%2C0.3%29%22%20stroke-width%3D%221.5%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22324%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EWheat%20%E2%80%A2%20%E0%B0%97%E0%B1%8B%E0%B0%A7%E0%B1%81%E0%B0%AE%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Certified%20Tag%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22270%22%20y%3D%22350%22%20width%3D%22260%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22%23eab308%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22369%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%231c1917%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EAGRIMITRA%20SCIENTIFIC%20GUIDE%3C/text%3E%0A%20%20%20%20%3C/svg%3E"
+    },
+    {
+      "id": "maize",
+      "name": "Maize (Corn)",
+      "teluguName": "మొక్కజొన్న",
+      "hindiName": "मक्का",
+      "category": "cereals",
+      "season": "Kharif, Rabi & Spring",
+      "soil": "Deep, well-drained fertile loamy soils with pH 6.5 - 7.5",
+      "water": "500 - 700 mm (Moderate)",
+      "harvest": "90 - 110 days",
+      "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=800&q=80",
+      "overview": "Versatile industrial, food and feed crop with high photosynthetic efficiency (C4 plant).",
+      "stages": [
+        "Bed Preparation",
+        "Ridge Sowing",
+        "Knee-High Stage",
+        "Tasseling (Male)",
+        "Silking (Female)",
+        "Grain Filling",
+        "Physiological Maturity"
+      ],
+      "commonPests": "Fall Armyworm (FAW), Stem Borer, Turcicum Leaf Blight",
+      "svgFallback": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22500%22%20viewBox%3D%220%200%20800%20500%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grad_Maize_%28Corn%29%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22rgb%28202%2C%20138%2C%204%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22rgb%28161%2C%2098%2C%207%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22rgb%28113%2C%2063%2C%2018%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%20%20%3C/defs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22500%22%20fill%3D%22url%28%23grad_Maize_%28Corn%29%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Stylized%20rolling%20fields%20--%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20320%20Q%20200%20270%20400%20320%20T%20800%20310%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%286%2C%2078%2C%2059%2C%200.75%29%22%20/%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20370%20Q%20250%20320%20500%20360%20T%20800%20350%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%285%2C%2046%2C%2022%2C%200.95%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Sun%20glow%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2270%22%20fill%3D%22rgba%28253%2C%20224%2C%2071%2C%200.35%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2245%22%20fill%3D%22rgba%28254%2C%20240%2C%20138%2C%200.7%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Central%20badge%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2285%22%20fill%3D%22%23ffffff%22%20filter%3D%22drop-shadow%280%2010px%2020px%20rgba%280%2C0%2C0%2C0.25%29%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2275%22%20fill%3D%22%23fcfbf7%22%20stroke%3D%22rgb%28161%2C%2098%2C%207%29%22%20stroke-width%3D%224%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22218%22%20font-size%3D%2270%22%20text-anchor%3D%22middle%22%20font-family%3D%22Apple%20Color%20Emoji%2C%20Segoe%20UI%20Emoji%2C%20sans-serif%22%3E%F0%9F%8C%BD%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Title%20badge%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22220%22%20y%3D%22295%22%20width%3D%22360%22%20height%3D%2244%22%20rx%3D%2222%22%20fill%3D%22%23052e16%22%20stroke%3D%22rgba%28255%2C255%2C255%2C0.3%29%22%20stroke-width%3D%221.5%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22324%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EMaize%20%28Corn%29%20%E2%80%A2%20%E0%B0%AE%E0%B1%8A%E0%B0%95%E0%B1%8D%E0%B0%95%E0%B0%9C%E0%B1%8A%E0%B0%A8%E0%B1%8D%E0%B0%A8%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Certified%20Tag%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22270%22%20y%3D%22350%22%20width%3D%22260%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22%23eab308%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22369%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%231c1917%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EAGRIMITRA%20SCIENTIFIC%20GUIDE%3C/text%3E%0A%20%20%20%20%3C/svg%3E"
+    },
+    {
+      "id": "cotton",
+      "name": "Cotton",
+      "teluguName": "ప్రత్తి",
+      "hindiName": "कपास",
+      "category": "cash_crops",
+      "season": "Kharif",
+      "soil": "Deep black cotton soils (Vertisols) and rich alluvial soils",
+      "water": "700 - 1000 mm (Moderate)",
+      "harvest": "150 - 180 days",
+      "image": "https://images.unsplash.com/photo-1594488518002-c943801ce455?auto=format&fit=crop&w=800&q=80",
+      "overview": "Major commercial cash crop known as 'White Gold'. Demands frost-free climate, deep soils, and dry sunny harvesting weather.",
+      "stages": [
+        "Deep Summer Tillage",
+        "Dibbling Seeds",
+        "Square Formation",
+        "Flowering",
+        "Boll Development",
+        "Boll Bursting",
+        "Multi-Pass Picking"
+      ],
+      "commonPests": "Pink Bollworm, Whitefly, Jassids, Leaf Curl Virus",
+      "svgFallback": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22500%22%20viewBox%3D%220%200%20800%20500%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grad_Cotton%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22rgb%2813%2C%20148%2C%20136%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22rgb%2815%2C%20118%2C%20110%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22rgb%2819%2C%2078%2C%2074%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%20%20%3C/defs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22500%22%20fill%3D%22url%28%23grad_Cotton%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Stylized%20rolling%20fields%20--%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20320%20Q%20200%20270%20400%20320%20T%20800%20310%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%286%2C%2078%2C%2059%2C%200.75%29%22%20/%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20370%20Q%20250%20320%20500%20360%20T%20800%20350%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%285%2C%2046%2C%2022%2C%200.95%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Sun%20glow%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2270%22%20fill%3D%22rgba%28253%2C%20224%2C%2071%2C%200.35%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2245%22%20fill%3D%22rgba%28254%2C%20240%2C%20138%2C%200.7%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Central%20badge%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2285%22%20fill%3D%22%23ffffff%22%20filter%3D%22drop-shadow%280%2010px%2020px%20rgba%280%2C0%2C0%2C0.25%29%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2275%22%20fill%3D%22%23fcfbf7%22%20stroke%3D%22rgb%2815%2C%20118%2C%20110%29%22%20stroke-width%3D%224%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22218%22%20font-size%3D%2270%22%20text-anchor%3D%22middle%22%20font-family%3D%22Apple%20Color%20Emoji%2C%20Segoe%20UI%20Emoji%2C%20sans-serif%22%3E%E2%98%81%EF%B8%8F%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Title%20badge%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22220%22%20y%3D%22295%22%20width%3D%22360%22%20height%3D%2244%22%20rx%3D%2222%22%20fill%3D%22%23052e16%22%20stroke%3D%22rgba%28255%2C255%2C255%2C0.3%29%22%20stroke-width%3D%221.5%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22324%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3ECotton%20%E2%80%A2%20%E0%B0%AA%E0%B1%8D%E0%B0%B0%E0%B0%A4%E0%B1%8D%E0%B0%A4%E0%B0%BF%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Certified%20Tag%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22270%22%20y%3D%22350%22%20width%3D%22260%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22%23eab308%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22369%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%231c1917%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EAGRIMITRA%20SCIENTIFIC%20GUIDE%3C/text%3E%0A%20%20%20%20%3C/svg%3E"
+    },
+    {
+      "id": "groundnut",
+      "name": "Groundnut (Peanut)",
+      "teluguName": "వేరుశెనగ",
+      "hindiName": "मूंगफली",
+      "category": "oilseeds",
+      "season": "Kharif & Rabi",
+      "soil": "Well-drained sandy loam or light red loamy soil",
+      "water": "450 - 600 mm (Low - Moderate)",
+      "harvest": "100 - 120 days",
+      "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=800&q=80",
+      "overview": "High-protein legume oilseed that naturally enriches soil with atmospheric nitrogen fixation.",
+      "stages": [
+        "Fine Tilth Bed",
+        "Rhizobium Seed Treatment",
+        "Branching",
+        "Flowering",
+        "Pegging (Geocarpy)",
+        "Pod Development",
+        "Harvest Digging"
+      ],
+      "commonPests": "Tikka Leaf Spot, Collar Rot, Spodoptera, White Grub",
+      "svgFallback": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22500%22%20viewBox%3D%220%200%20800%20500%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grad_Groundnut_%28Peanut%29%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22rgb%28180%2C%2083%2C%209%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22rgb%28146%2C%2064%2C%2014%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22rgb%28120%2C%2053%2C%2015%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%20%20%3C/defs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22500%22%20fill%3D%22url%28%23grad_Groundnut_%28Peanut%29%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Stylized%20rolling%20fields%20--%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20320%20Q%20200%20270%20400%20320%20T%20800%20310%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%286%2C%2078%2C%2059%2C%200.75%29%22%20/%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20370%20Q%20250%20320%20500%20360%20T%20800%20350%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%285%2C%2046%2C%2022%2C%200.95%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Sun%20glow%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2270%22%20fill%3D%22rgba%28253%2C%20224%2C%2071%2C%200.35%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2245%22%20fill%3D%22rgba%28254%2C%20240%2C%20138%2C%200.7%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Central%20badge%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2285%22%20fill%3D%22%23ffffff%22%20filter%3D%22drop-shadow%280%2010px%2020px%20rgba%280%2C0%2C0%2C0.25%29%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2275%22%20fill%3D%22%23fcfbf7%22%20stroke%3D%22rgb%28146%2C%2064%2C%2014%29%22%20stroke-width%3D%224%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22218%22%20font-size%3D%2270%22%20text-anchor%3D%22middle%22%20font-family%3D%22Apple%20Color%20Emoji%2C%20Segoe%20UI%20Emoji%2C%20sans-serif%22%3E%F0%9F%A5%9C%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Title%20badge%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22220%22%20y%3D%22295%22%20width%3D%22360%22%20height%3D%2244%22%20rx%3D%2222%22%20fill%3D%22%23052e16%22%20stroke%3D%22rgba%28255%2C255%2C255%2C0.3%29%22%20stroke-width%3D%221.5%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22324%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EGroundnut%20%28Peanut%29%20%E2%80%A2%20%E0%B0%B5%E0%B1%87%E0%B0%B0%E0%B1%81%E0%B0%B6%E0%B1%86%E0%B0%A8%E0%B0%97%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Certified%20Tag%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22270%22%20y%3D%22350%22%20width%3D%22260%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22%23eab308%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22369%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%231c1917%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EAGRIMITRA%20SCIENTIFIC%20GUIDE%3C/text%3E%0A%20%20%20%20%3C/svg%3E"
+    },
+    {
+      "id": "sugarcane",
+      "name": "Sugarcane",
+      "teluguName": "చెరకు",
+      "hindiName": "गन्ना",
+      "category": "cash_crops",
+      "season": "Perennial / Annual (Spring / Autumn)",
+      "soil": "Deep rich loamy soils with good drainage and high organic matter",
+      "water": "1500 - 2500 mm (High)",
+      "harvest": "10 - 12 months",
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=80",
+      "overview": "High-tonnage commercial sucrose crop. Key driver of rural agro-industry and renewable co-generation power.",
+      "stages": [
+        "Deep Furrowing",
+        "Sett Selection & Fungicide Dip",
+        "Sprouting",
+        "Tillering & Earthing Up",
+        "Grand Growth Phase",
+        "Ripening & Sugar Accumulation",
+        "Cutting at Base"
+      ],
+      "commonPests": "Early Shoot Borer, Top Borer, Red Rot, Pyrilla",
+      "svgFallback": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22500%22%20viewBox%3D%220%200%20800%20500%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grad_Sugarcane%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22rgb%2821%2C%20128%2C%2061%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22rgb%2822%2C%20101%2C%2052%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22rgb%2820%2C%2083%2C%2045%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%20%20%3C/defs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22500%22%20fill%3D%22url%28%23grad_Sugarcane%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Stylized%20rolling%20fields%20--%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20320%20Q%20200%20270%20400%20320%20T%20800%20310%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%286%2C%2078%2C%2059%2C%200.75%29%22%20/%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20370%20Q%20250%20320%20500%20360%20T%20800%20350%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%285%2C%2046%2C%2022%2C%200.95%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Sun%20glow%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2270%22%20fill%3D%22rgba%28253%2C%20224%2C%2071%2C%200.35%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2245%22%20fill%3D%22rgba%28254%2C%20240%2C%20138%2C%200.7%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Central%20badge%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2285%22%20fill%3D%22%23ffffff%22%20filter%3D%22drop-shadow%280%2010px%2020px%20rgba%280%2C0%2C0%2C0.25%29%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2275%22%20fill%3D%22%23fcfbf7%22%20stroke%3D%22rgb%2822%2C%20101%2C%2052%29%22%20stroke-width%3D%224%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22218%22%20font-size%3D%2270%22%20text-anchor%3D%22middle%22%20font-family%3D%22Apple%20Color%20Emoji%2C%20Segoe%20UI%20Emoji%2C%20sans-serif%22%3E%F0%9F%8E%8B%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Title%20badge%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22220%22%20y%3D%22295%22%20width%3D%22360%22%20height%3D%2244%22%20rx%3D%2222%22%20fill%3D%22%23052e16%22%20stroke%3D%22rgba%28255%2C255%2C255%2C0.3%29%22%20stroke-width%3D%221.5%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22324%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3ESugarcane%20%E2%80%A2%20%E0%B0%9A%E0%B1%86%E0%B0%B0%E0%B0%95%E0%B1%81%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Certified%20Tag%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22270%22%20y%3D%22350%22%20width%3D%22260%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22%23eab308%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22369%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%231c1917%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EAGRIMITRA%20SCIENTIFIC%20GUIDE%3C/text%3E%0A%20%20%20%20%3C/svg%3E"
+    },
+    {
+      "id": "pulses",
+      "name": "Pulses (Chickpea / Red Gram)",
+      "teluguName": "పప్పుధాన్యాలు (కందులు / శెనగలు)",
+      "hindiName": "दालें (चना / अरहर)",
+      "category": "legumes",
+      "season": "Rabi (Gram) / Kharif (Tur)",
+      "soil": "Medium to deep loams, black cotton soils",
+      "water": "350 - 450 mm (Low)",
+      "harvest": "90 - 130 days",
+      "image": "https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?auto=format&fit=crop&w=800&q=80",
+      "overview": "Essential plant protein sources. Drought hardy legumes capable of fixing 40-60 kg nitrogen per hectare in soil.",
+      "stages": [
+        "Seed Inoculation",
+        "Sowing",
+        "Branching",
+        "Flowering",
+        "Pod Setting",
+        "Maturity",
+        "Harvesting & Threshing"
+      ],
+      "commonPests": "Pod Borer (Helicoverpa), Fusarium Wilt, Dry Root Rot",
+      "svgFallback": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22500%22%20viewBox%3D%220%200%20800%20500%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grad_Pulses_%28Chickpea%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22rgb%2815%2C%20118%2C%20110%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22rgb%2813%2C%20148%2C%20136%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22rgb%2817%2C%2094%2C%2089%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%20%20%3C/defs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22500%22%20fill%3D%22url%28%23grad_Pulses_%28Chickpea%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Stylized%20rolling%20fields%20--%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20320%20Q%20200%20270%20400%20320%20T%20800%20310%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%286%2C%2078%2C%2059%2C%200.75%29%22%20/%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20370%20Q%20250%20320%20500%20360%20T%20800%20350%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%285%2C%2046%2C%2022%2C%200.95%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Sun%20glow%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2270%22%20fill%3D%22rgba%28253%2C%20224%2C%2071%2C%200.35%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2245%22%20fill%3D%22rgba%28254%2C%20240%2C%20138%2C%200.7%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Central%20badge%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2285%22%20fill%3D%22%23ffffff%22%20filter%3D%22drop-shadow%280%2010px%2020px%20rgba%280%2C0%2C0%2C0.25%29%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2275%22%20fill%3D%22%23fcfbf7%22%20stroke%3D%22rgb%2813%2C%20148%2C%20136%29%22%20stroke-width%3D%224%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22218%22%20font-size%3D%2270%22%20text-anchor%3D%22middle%22%20font-family%3D%22Apple%20Color%20Emoji%2C%20Segoe%20UI%20Emoji%2C%20sans-serif%22%3E%F0%9F%8C%B1%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Title%20badge%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22220%22%20y%3D%22295%22%20width%3D%22360%22%20height%3D%2244%22%20rx%3D%2222%22%20fill%3D%22%23052e16%22%20stroke%3D%22rgba%28255%2C255%2C255%2C0.3%29%22%20stroke-width%3D%221.5%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22324%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EPulses%20%28Chickpea%20%E2%80%A2%20%E0%B0%AA%E0%B0%AA%E0%B1%8D%E0%B0%AA%E0%B1%81%E0%B0%A7%E0%B0%BE%E0%B0%A8%E0%B1%8D%E0%B0%AF%E0%B0%BE%E0%B0%B2%E0%B1%81%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Certified%20Tag%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22270%22%20y%3D%22350%22%20width%3D%22260%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22%23eab308%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22369%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%231c1917%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EAGRIMITRA%20SCIENTIFIC%20GUIDE%3C/text%3E%0A%20%20%20%20%3C/svg%3E"
+    },
+    {
+      "id": "vegetables",
+      "name": "Vegetables (Tomato & Chilli)",
+      "teluguName": "కూరగాయలు (టమోటా / మిరప)",
+      "hindiName": "सब्जियां (टमाटर / मिर्च)",
+      "category": "horticulture",
+      "season": "Year-round / Kharif & Rabi",
+      "soil": "Fertile sandy loam with pH 6.0 - 7.0 and high compost",
+      "water": "600 - 800 mm (Drip ideal)",
+      "harvest": "60 - 90 days from transplant",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+      "overview": "High-value commercial horticultural crops yielding multiple flushes of produce for local and regional markets.",
+      "stages": [
+        "Raised Nursery Beds",
+        "Portray Raising",
+        "Transplanting with Mulch",
+        "Staking & Trellising",
+        "Flowering",
+        "Fruit Set",
+        "Selective Harvesting"
+      ],
+      "commonPests": "Thrips, Mites, Fruit Borer, Early & Late Blight, Tomato Leaf Curl Virus",
+      "svgFallback": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22500%22%20viewBox%3D%220%200%20800%20500%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grad_Vegetables_%28Tomato_%26_Chilli%29%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22rgb%28190%2C%2018%2C%2060%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22rgb%28159%2C%2018%2C%2057%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22rgb%28136%2C%2019%2C%2055%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%20%20%3C/defs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22500%22%20fill%3D%22url%28%23grad_Vegetables_%28Tomato_%26_Chilli%29%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Stylized%20rolling%20fields%20--%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20320%20Q%20200%20270%20400%20320%20T%20800%20310%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%286%2C%2078%2C%2059%2C%200.75%29%22%20/%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20370%20Q%20250%20320%20500%20360%20T%20800%20350%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%285%2C%2046%2C%2022%2C%200.95%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Sun%20glow%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2270%22%20fill%3D%22rgba%28253%2C%20224%2C%2071%2C%200.35%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2245%22%20fill%3D%22rgba%28254%2C%20240%2C%20138%2C%200.7%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Central%20badge%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2285%22%20fill%3D%22%23ffffff%22%20filter%3D%22drop-shadow%280%2010px%2020px%20rgba%280%2C0%2C0%2C0.25%29%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2275%22%20fill%3D%22%23fcfbf7%22%20stroke%3D%22rgb%28159%2C%2018%2C%2057%29%22%20stroke-width%3D%224%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22218%22%20font-size%3D%2270%22%20text-anchor%3D%22middle%22%20font-family%3D%22Apple%20Color%20Emoji%2C%20Segoe%20UI%20Emoji%2C%20sans-serif%22%3E%F0%9F%8D%85%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Title%20badge%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22220%22%20y%3D%22295%22%20width%3D%22360%22%20height%3D%2244%22%20rx%3D%2222%22%20fill%3D%22%23052e16%22%20stroke%3D%22rgba%28255%2C255%2C255%2C0.3%29%22%20stroke-width%3D%221.5%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22324%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EVegetables%20%28Tomato%20%26%20Chilli%29%20%E2%80%A2%20%E0%B0%95%E0%B1%82%E0%B0%B0%E0%B0%97%E0%B0%BE%E0%B0%AF%E0%B0%B2%E0%B1%81%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Certified%20Tag%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22270%22%20y%3D%22350%22%20width%3D%22260%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22%23eab308%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22369%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%231c1917%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EAGRIMITRA%20SCIENTIFIC%20GUIDE%3C/text%3E%0A%20%20%20%20%3C/svg%3E"
+    },
+    {
+      "id": "fruits",
+      "name": "Fruits (Mango & Banana)",
+      "teluguName": "పండ్లు (మామిడి / అరటి)",
+      "hindiName": "फल (आम / केला)",
+      "category": "horticulture",
+      "season": "Perennial Orchard",
+      "soil": "Deep well-aerated rich loams",
+      "water": "Regular drip scheduling",
+      "harvest": "Seasonal / Continuous flushes",
+      "image": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=800&q=80",
+      "overview": "Long-term orchard assets generating seasonal profits, export potential and intercropping opportunities.",
+      "stages": [
+        "Pit Digging & Manuring",
+        "Graft Planting",
+        "Pruning & Training",
+        "Flowering (Blossom)",
+        "Fruit Development",
+        "De-bagging & Picking"
+      ],
+      "commonPests": "Mango Hopper, Fruit Fly, Anthracnose, Sigatoka",
+      "svgFallback": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22500%22%20viewBox%3D%220%200%20800%20500%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grad_Fruits_%28Mango_%26_Banana%29%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22rgb%28194%2C%2065%2C%2012%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22rgb%28154%2C%2052%2C%2018%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22rgb%28124%2C%2045%2C%2018%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%20%20%3C/defs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22500%22%20fill%3D%22url%28%23grad_Fruits_%28Mango_%26_Banana%29%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Stylized%20rolling%20fields%20--%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20320%20Q%20200%20270%20400%20320%20T%20800%20310%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%286%2C%2078%2C%2059%2C%200.75%29%22%20/%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20370%20Q%20250%20320%20500%20360%20T%20800%20350%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%285%2C%2046%2C%2022%2C%200.95%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Sun%20glow%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2270%22%20fill%3D%22rgba%28253%2C%20224%2C%2071%2C%200.35%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2245%22%20fill%3D%22rgba%28254%2C%20240%2C%20138%2C%200.7%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Central%20badge%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2285%22%20fill%3D%22%23ffffff%22%20filter%3D%22drop-shadow%280%2010px%2020px%20rgba%280%2C0%2C0%2C0.25%29%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2275%22%20fill%3D%22%23fcfbf7%22%20stroke%3D%22rgb%28154%2C%2052%2C%2018%29%22%20stroke-width%3D%224%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22218%22%20font-size%3D%2270%22%20text-anchor%3D%22middle%22%20font-family%3D%22Apple%20Color%20Emoji%2C%20Segoe%20UI%20Emoji%2C%20sans-serif%22%3E%F0%9F%A5%AD%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Title%20badge%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22220%22%20y%3D%22295%22%20width%3D%22360%22%20height%3D%2244%22%20rx%3D%2222%22%20fill%3D%22%23052e16%22%20stroke%3D%22rgba%28255%2C255%2C255%2C0.3%29%22%20stroke-width%3D%221.5%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22324%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EFruits%20%28Mango%20%26%20Banana%29%20%E2%80%A2%20%E0%B0%AA%E0%B0%82%E0%B0%A1%E0%B1%8D%E0%B0%B2%E0%B1%81%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Certified%20Tag%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22270%22%20y%3D%22350%22%20width%3D%22260%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22%23eab308%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22369%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%231c1917%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EAGRIMITRA%20SCIENTIFIC%20GUIDE%3C/text%3E%0A%20%20%20%20%3C/svg%3E"
+    },
+    {
+      "id": "millets",
+      "name": "Millets (Bajra & Jowar)",
+      "teluguName": "చిరుధాన్యాలు (జొన్నలు / సజ్జలు)",
+      "hindiName": "बाजरा / ज्वार",
+      "category": "millets",
+      "season": "Kharif & Summer",
+      "soil": "Sandy loam, gravelly, marginal soils",
+      "water": "300 - 450 mm (Very Low)",
+      "harvest": "75 - 95 days",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=800&q=80",
+      "overview": "Climate-resilient 'Nutri-Cereals'. Require minimal inputs, withstand extreme heat, and offer supreme nutrition.",
+      "stages": [
+        "Minimal Tillage",
+        "Broadcasting / Drilling",
+        "Thinning",
+        "Flag Leaf Stage",
+        "Grain Filling",
+        "Dry Head Harvesting"
+      ],
+      "commonPests": "Shoot Fly, Stem Borer, Ergot, Grain Mold",
+      "svgFallback": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22500%22%20viewBox%3D%220%200%20800%20500%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grad_Millets_%28Bajra_%26_Jowar%29%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22rgb%28161%2C%2098%2C%207%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22rgb%28133%2C%2077%2C%2014%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22rgb%28113%2C%2063%2C%2018%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%20%20%3C/defs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22500%22%20fill%3D%22url%28%23grad_Millets_%28Bajra_%26_Jowar%29%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Stylized%20rolling%20fields%20--%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20320%20Q%20200%20270%20400%20320%20T%20800%20310%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%286%2C%2078%2C%2059%2C%200.75%29%22%20/%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20370%20Q%20250%20320%20500%20360%20T%20800%20350%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%285%2C%2046%2C%2022%2C%200.95%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Sun%20glow%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2270%22%20fill%3D%22rgba%28253%2C%20224%2C%2071%2C%200.35%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2245%22%20fill%3D%22rgba%28254%2C%20240%2C%20138%2C%200.7%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Central%20badge%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2285%22%20fill%3D%22%23ffffff%22%20filter%3D%22drop-shadow%280%2010px%2020px%20rgba%280%2C0%2C0%2C0.25%29%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2275%22%20fill%3D%22%23fcfbf7%22%20stroke%3D%22rgb%28133%2C%2077%2C%2014%29%22%20stroke-width%3D%224%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22218%22%20font-size%3D%2270%22%20text-anchor%3D%22middle%22%20font-family%3D%22Apple%20Color%20Emoji%2C%20Segoe%20UI%20Emoji%2C%20sans-serif%22%3E%F0%9F%A5%A3%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Title%20badge%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22220%22%20y%3D%22295%22%20width%3D%22360%22%20height%3D%2244%22%20rx%3D%2222%22%20fill%3D%22%23052e16%22%20stroke%3D%22rgba%28255%2C255%2C255%2C0.3%29%22%20stroke-width%3D%221.5%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22324%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EMillets%20%28Bajra%20%26%20Jowar%29%20%E2%80%A2%20%E0%B0%9A%E0%B0%BF%E0%B0%B0%E0%B1%81%E0%B0%A7%E0%B0%BE%E0%B0%A8%E0%B1%8D%E0%B0%AF%E0%B0%BE%E0%B0%B2%E0%B1%81%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Certified%20Tag%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22270%22%20y%3D%22350%22%20width%3D%22260%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22%23eab308%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22369%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%231c1917%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EAGRIMITRA%20SCIENTIFIC%20GUIDE%3C/text%3E%0A%20%20%20%20%3C/svg%3E"
+    },
+    {
+      "id": "oilseeds",
+      "name": "Oilseeds (Mustard & Soybean)",
+      "teluguName": "నూనెగింజలు (ఆవాలు / సోయాబీన్)",
+      "hindiName": "सरसों / सोयाबीन",
+      "category": "oilseeds",
+      "season": "Rabi (Mustard) / Kharif (Soybean)",
+      "soil": "Loam to heavy clay soils with good drainage",
+      "water": "350 - 500 mm (Low)",
+      "harvest": "90 - 110 days",
+      "image": "https://images.unsplash.com/photo-1508746829417-e6f548d8d6ed?auto=format&fit=crop&w=800&q=80",
+      "overview": "High economic value oil crops ensuring domestic edible oil security and nutritious oilcake meal.",
+      "stages": [
+        "Fine Seedbed",
+        "Line Sowing",
+        "Weeding",
+        "Golden Flowering",
+        "Siliqua / Pod Formation",
+        "Maturity Harvesting"
+      ],
+      "commonPests": "Mustard Aphid, White Rust, Alternaria Blight",
+      "svgFallback": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22500%22%20viewBox%3D%220%200%20800%20500%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grad_Oilseeds_%28Mustard_%26_Soybean%29%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22rgb%28202%2C%20138%2C%204%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22rgb%28161%2C%2098%2C%207%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22rgb%28113%2C%2063%2C%2018%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%20%20%3C/defs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22500%22%20fill%3D%22url%28%23grad_Oilseeds_%28Mustard_%26_Soybean%29%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Stylized%20rolling%20fields%20--%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20320%20Q%20200%20270%20400%20320%20T%20800%20310%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%286%2C%2078%2C%2059%2C%200.75%29%22%20/%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20370%20Q%20250%20320%20500%20360%20T%20800%20350%20L%20800%20500%20L%200%20500%20Z%22%20fill%3D%22rgba%285%2C%2046%2C%2022%2C%200.95%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Sun%20glow%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2270%22%20fill%3D%22rgba%28253%2C%20224%2C%2071%2C%200.35%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%2245%22%20fill%3D%22rgba%28254%2C%20240%2C%20138%2C%200.7%29%22%20/%3E%0A%20%20%20%20%20%20%3C%21--%20Central%20badge%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2285%22%20fill%3D%22%23ffffff%22%20filter%3D%22drop-shadow%280%2010px%2020px%20rgba%280%2C0%2C0%2C0.25%29%29%22%20/%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22400%22%20cy%3D%22190%22%20r%3D%2275%22%20fill%3D%22%23fcfbf7%22%20stroke%3D%22rgb%28161%2C%2098%2C%207%29%22%20stroke-width%3D%224%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22218%22%20font-size%3D%2270%22%20text-anchor%3D%22middle%22%20font-family%3D%22Apple%20Color%20Emoji%2C%20Segoe%20UI%20Emoji%2C%20sans-serif%22%3E%F0%9F%8C%BB%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Title%20badge%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22220%22%20y%3D%22295%22%20width%3D%22360%22%20height%3D%2244%22%20rx%3D%2222%22%20fill%3D%22%23052e16%22%20stroke%3D%22rgba%28255%2C255%2C255%2C0.3%29%22%20stroke-width%3D%221.5%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22324%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EOilseeds%20%28Mustard%20%26%20Soybean%29%20%E2%80%A2%20%E0%B0%A8%E0%B1%82%E0%B0%A8%E0%B1%86%E0%B0%97%E0%B0%BF%E0%B0%82%E0%B0%9C%E0%B0%B2%E0%B1%81%3C/text%3E%0A%20%20%20%20%20%20%3C%21--%20Certified%20Tag%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22270%22%20y%3D%22350%22%20width%3D%22260%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22%23eab308%22%20/%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22400%22%20y%3D%22369%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%231c1917%22%20text-anchor%3D%22middle%22%20font-family%3D%22%27Plus%20Jakarta%20Sans%27%2C%20sans-serif%22%3EAGRIMITRA%20SCIENTIFIC%20GUIDE%3C/text%3E%0A%20%20%20%20%3C/svg%3E"
+    }
+  ],
+  "rice_deep_dive": {
+    "en": {
+      "title": "Rice / Paddy (Oryza sativa)",
+      "subtitle": "Comprehensive Agronomic Cultivation & Management Masterclass",
+      "videoTitle": "Scientific Paddy Cultivation & Integrated Pest Management Video Guide",
+      "videoChapters": [
+        {
+          "time": "0:00",
+          "title": "Seed Selection & Bio-Treatment (Carbendazim / Trichoderma)"
+        },
+        {
+          "time": "2:15",
+          "title": "Nursery Bed Preparation (Wet & Dry Bed Methods)"
+        },
+        {
+          "time": "4:30",
+          "title": "Main Field Puddling & Laser Levelling"
+        },
+        {
+          "time": "7:00",
+          "title": "Transplanting Spacing (20x15 cm) & SRI Method"
+        },
+        {
+          "time": "10:15",
+          "title": "Alternate Wetting & Drying (AWD) Irrigation"
+        },
+        {
+          "time": "13:40",
+          "title": "Balanced Nutrient Split (Urea + DAP + MOP + Zinc)"
+        },
+        {
+          "time": "16:20",
+          "title": "Pest Scouting: Stem Borer, BPH & Blast Control"
+        },
+        {
+          "time": "19:50",
+          "title": "Combine Harvester Operation & 12% Moisture Storage"
+        }
+      ],
+      "sections": {
+        "overview": "Rice (Oryza sativa) is the primary food grain of India, occupying over 44 million hectares. In South India and Andhra Pradesh, it is predominantly cultivated across both Kharif (Sarva) and Rabi (Dalwa) seasons. It requires high temperatures (25-35°C), high humidity, and assured water availability.",
+        "varieties": "Popular High-Yielding Varieties: BPT-5204 (Samba Mahsuri - premium fine grain), MTU-1061 (Indra - waterlogging tolerant), MTU-1010 (short duration, 120 days), RNR-15048 (Telangana Sona - low glycemic index), and NLR-34449.",
+        "seedTreatment": "Seed Rate: 20-25 kg/acre for fine varieties, 25-30 kg/acre for bold varieties. Soak certified seeds in water for 24 hours. Treat with Carbendazim 50% WP @ 2.5 g/kg seed or bio-fungicide Trichoderma viride @ 10 g/kg seed to eradicate seed-borne fungal infections.",
+        "nursery": "Raised bed nursery of 10 cents area per acre. Apply 200 kg well-decomposed FYM, 2 kg DAP, and 1 kg MOP in nursery beds. Maintain shallow water layer (1-2 cm). Seedlings are ready for transplanting at 22-25 days age.",
+        "puddling": "Puddle the main field 2-3 times using rotavator with standing water of 5 cm to create an impervious subsoil layer that prevents deep percolation of water and nutrients. Level thoroughly with a wooden plank or laser leveller.",
+        "transplanting": "Transplant 2-3 vigorous seedlings per hill at a shallow depth of 2-3 cm. Maintain 20 cm row-to-row and 15 cm plant-to-plant spacing (33 hills per square meter). In System of Rice Intensification (SRI), plant 8-12 day young single seedlings at 25x25 cm spacing.",
+        "irrigation": "Adopt Alternate Wetting and Drying (AWD) method by installing a perforated field tube. Irrigate to 5 cm depth only when the water level inside the field tube drops 15 cm below soil surface. Critical irrigation stages: Initial tillering, Panicle initiation, Flowering, and Grain filling.",
+        "nutrition": "Recommended Fertilizer Dose per Acre: 45 kg N (Urea ~100 kg), 24 kg P2O5 (DAP ~50 kg), and 20 kg K2O (MOP ~35 kg). Apply all DAP and 1/3rd MOP as basal dose. Apply Urea in 3 equal splits: 1/3rd at basal/early tillering, 1/3rd at active tillering, and 1/3rd at panicle initiation. Apply 20 kg Zinc Sulphate (21%) per acre at basal stage.",
+        "pestManagement": "1. Yellow Stem Borer: Install 8 pheromone traps/acre. Spray Cartap Hydrochloride 50% SP @ 2 g/L or Chlorantraniliprole 18.5% SC @ 0.3 ml/L.\\n2. Brown Plant Hopper (BPH): Create alley ways (1 foot gap every 2 meters). Spray Pymetrozine 50% WDG @ 0.6 g/L or Triflumezopyrim 10% SC @ 0.5 ml/L.\\n3. Blast (Pyricularia oryzae): Spray Tricyclazole 75% WP @ 0.6 g/L or Isoprothiolane 40% EC @ 1.5 ml/L.",
+        "harvesting": "Harvest when 85-90% of the grains in the panicle turn golden yellow. Moisture content at harvest should be around 20-22%. Sun dry threshed paddy for 2-3 days until grain moisture drops to 12-14% before bagging in airtight hermetic bags or clean gunny bags."
+      }
+    },
+    "te": {
+      "title": "వరి సాగు సమగ్ర సమాచారం (రైస్ & ప్యాడీ - Oryza sativa)",
+      "subtitle": "శాస్త్రీయ వరి సాగు పద్ధతులు, యాజమాన్య సూచనలు & వీడియో విజువల్ గైడ్",
+      "videoTitle": "శాస్త్రీయ వరి సాగు, ఎరువులు & సమగ్ర సస్యరక్షణ వీడియో విజువల్స్",
+      "videoChapters": [
+        {
+          "time": "0:00",
+          "title": "1. విత్తన శుద్ధి & జీవ రసాయనాల ఎంపిక (కార్బండైజిమ్ / ట్రైకోడెర్మా)"
+        },
+        {
+          "time": "2:15",
+          "title": "2. నారుమడి తయారీ & యాజమాన్యం (ఆరోగ్యకరమైన నారు)"
+        },
+        {
+          "time": "4:30",
+          "title": "3. ప్రధాన పొలం దమ్ము చేయడం & లెవలింగ్"
+        },
+        {
+          "time": "7:00",
+          "title": "4. సరైన సాళ్ళ పద్ధతిలో నాట్లు వేయడం (20x15 సెం.మీ) & శ్రీ వరి"
+        },
+        {
+          "time": "10:15",
+          "title": "5. ఆల్టర్నేట్ వెట్టింగ్ & డ్రైయింగ్ (AWD) నీటి యాజమాన్యం"
+        },
+        {
+          "time": "13:40",
+          "title": "6. సమగ్ర పోషక యాజమాన్యం (యూరియా + డీఏపీ + పొటాష్ + జింక్)"
+        },
+        {
+          "time": "16:20",
+          "title": "7. కాండం తొలిచే పురుగు, సుడిదోమ & అగ్గితెగులు సమగ్ర నివారణ"
+        },
+        {
+          "time": "19:50",
+          "title": "8. కంబైన్డ్ హార్వెస్టర్ కోత & 12% తేమతో శాస్త్రీయ నిల్వ"
+        }
+      ],
+      "sections": {
+        "overview": "వరి (Rice / Paddy) మన దేశంలోనే కాక ఆంధ్రప్రదేశ్, తెలంగాణ రాష్ట్రాల్లో ప్రధాన ఆహార పంట. ఖరీఫ్ (సార్వా) మరియు రబీ (దాళ్వా) సీజన్లలో విస్తారంగా సాగవుతుంది. వరి సాగుకు అధిక ఉష్ణోగ్రత (25-35°C), తగినంత తేమ మరియు నీటి లభ్యత అత్యవసరం.",
+        "varieties": "ప్రసిద్ధ అధిక దిగుబడి రకాలు: బి.పి.టి-5204 (సాంబ మసూరి - సన్నని నాణ్యమైన బియ్యం), ఎం.టి.యు-1061 (ఇంద్ర - ముంపును తట్టుకుంటుంది), ఎం.టి.యు-1010 (స్వల్పకాలిక రకం, 120 రోజులు), ఆర్.ఎన్.ఆర్-15048 (తెలంగాణ సోనా - షుగర్ తక్కువ ఉండే రకం), ఎన్.ఎల్.ఆర్-34449 (నెల్లూరు మసూరి).",
+        "seedTreatment": "విత్తన మోతాదు: సన్న రకాలకు ఎకరాకు 20-25 కిలోలు, లావు రకాలకు 25-30 కిలోలు. కిలో విత్తనానికి 2.5 గ్రాముల కార్బండైజిమ్ లేదా 10 గ్రాముల ట్రైకోడెర్మా విరిడే పొడిని 10 మి.లీ. నీటితో కలిపి విత్తన శుద్ధి చేయాలి. దీనివల్ల విత్తనం ద్వారా వ్యాపించే తెగుళ్లు పూర్తిగా నిరోధించబడతాయి.",
+        "nursery": "ఎకరాకు 10 సెంట్ల నారుమడి అవసరం. నారుమడిలో 200 కిలోల చివికిన పశువుల ఎరువు, 2 కిలోల డీఏపీ మరియు 1 కిలో పొటాష్ వేయాలి. నారుమడిలో 1-2 సెం.మీ పలుచని నీటి పొర ఉంచాలి. 22-25 రోజుల ముదురు కాని లేత నారును నాటడానికి ఉపయోగించాలి.",
+        "puddling": "ప్రధాన పొలంలో 5 సెం.మీ నీరు ఉంచి రొటవేటర్ లేదా దమ్ము నాగలితో 2-3 సార్లు దమ్ము చేయాలి. దీనివల్ల నేల కింద ఒక గట్టి పొర ఏర్పడి నీరు, ఎరువులు భూమి లోపలికి ఇంకిపోకుండా నిల్వ ఉంటాయి. చెక్క పలక లేదా లేజర్ లెవలర్‌తో పొలాన్ని చదును చేయాలి.",
+        "transplanting": "కుదురుకు 2-3 ఆరోగ్యకరమైన పిలకలను 2-3 సెం.మీ లోతులో మాత్రమే నాటాలి. సాళ్ళ మధ్య 20 సెం.మీ మరియు కుదుళ్ళ మధ్య 15 సెం.మీ దూరం పాటించాలి (చదరపు మీటరుకు 33 కుదుళ్ళు). శ్రీవరి (SRI) పద్ధతిలో 8-12 రోజుల లేత నారును కుదురుకు ఒక్కటి చొప్పున 25x25 సెం.మీ దూరంలో నాటాలి.",
+        "irrigation": "నీటి ఆదా పద్ధతి (AWD): పొలంలో చిల్లులు గల ప్లాస్టిక్ పైపును పాతి, నీరు భూమి ఉపరితలం నుండి 15 సెం.మీ లోతుకు వెళ్లినప్పుడు మాత్రమే తిరిగి 5 సెం.మీ వరకు నీరు పెట్టాలి. దీనివల్ల 30% నీరు ఆదా అవడమే కాక పిలకలు ఎక్కువగా వస్తాయి. పిలకలు తొడిగే దశ, చిరుపొట్ట దశ, ఈనిన దశ మరియు గింజ పాలుపోసుకునే దశలలో నీటి ఎద్దడి రాకుండా చూడాలి.",
+        "nutrition": "ఎకరాకు ఎరువుల సిఫార్సు: 45 కిలోల నత్రజని (యూరియా ~100 కిలోలు), 24 కిలోల భాస్వరం (డీఏపీ ~50 కిలోలు), 20 కిలోల పొటాష్ (ఎం.ఓ.పి ~35 కిలోలు). ఆఖరి దుక్కిలో మొత్తం డీఏపీ, మూడో వంతు పొటాష్ మరియు 20 కిలోల జింక్ సల్ఫేట్ (21%) తప్పనిసరిగా వేయాలి. యూరియాను నాటిన 15-20 రోజులకు ఒక వంతు, పిలక దశలో ఒక వంతు, చిరుపొట్ట దశలో చివరి వంతు వేసుకోవాలి.",
+        "pestManagement": "1. కాండం తొలిచే పురుగు (Stem Borer): ఎకరాకు 8 లింగాకర్షక బుట్టలు అమర్చాలి. తెల్లకంకులు కనిపిస్తే కార్టాప్ హైడ్రోక్లోరైడ్ 50% SP 2 గ్రా./లీ. లేదా క్లోరాంట్రానిలిప్రోల్ 0.3 మి.లీ./లీ. పిచికారీ చేయాలి.\\n2. సుడిదోమ (BPH): పొలంలో ప్రతి 2 మీటర్లకు ఒక అడుగు వెడల్పున పాయలు తీయాలి. మొదళ్లలో దోమ కనిపిస్తే పైమెట్రోజిన్ 50% WDG 0.6 గ్రా./లీ. లేదా ట్రైఫ్లూమెజోపైరిమ్ 0.5 మి.లీ./లీ. మొదళ్ళు తడిచేలా పిచికారీ చేయాలి.\\n3. అగ్గితెగులు (Blast): ఆకులపై కంటి ఆకారపు మచ్చలు వస్తే ట్రైసైక్లాజోల్ 75% WP 0.6 గ్రా./లీ. పిచికారీ చేయాలి.",
+        "harvesting": "కంకిలోని 85-90% గింజలు బంగారు పసుపు రంగులోకి మారినప్పుడు పంటను కోయాలి. కంబైన్డ్ హార్వెస్టర్ ద్వారా కోసి నూర్పిడి చేసుకోవచ్చు. కోసిన ధాన్యాన్ని కళ్లంలో 2-3 రోజులు ఎండబెట్టి, తేమ 12-14% కి తగ్గిన తర్వాత శుభ్రమైన గోనె సంచులలో లేదా ఎయిర్‌టైట్ సంచులలో భద్రపరచుకోవాలి."
+      }
+    },
+    "hi": {
+      "title": "धान / चावल की वैज्ञानिक खेती (Rice / Paddy - Oryza sativa)",
+      "subtitle": "उन्नत कृषि तकनीक, पोषक तत्व प्रबंधन एवं वीडियो विजुअल गाइड",
+      "videoTitle": "धान की वैज्ञानिक खेती, नर्सरी, खाद एवं कीट प्रबंधन वीडियो विजुअल्स",
+      "videoChapters": [
+        {
+          "time": "0:00",
+          "title": "1. बीज चयन एवं बीजोपचार (कार्बेन्डाजिम / ट्राइकोडर्मा)"
+        },
+        {
+          "time": "2:15",
+          "title": "2. नर्सरी तैयार करने की उन्नत विधि"
+        },
+        {
+          "time": "4:30",
+          "title": "3. मुख्य खेत की लेवताई (कद्दू करना) एवं लेजर समतलीकरण"
+        },
+        {
+          "time": "7:00",
+          "title": "4. कतारबद्ध रोपाई (20x15 सेमी) एवं श्री विधि"
+        },
+        {
+          "time": "10:15",
+          "title": "5. जल प्रबंधन एवं वैकल्पिक सिंचाई (AWD)"
+        },
+        {
+          "time": "13:40",
+          "title": "6. संतुलित उर्वरक प्रबंधन (यूरिया + डीएपी + पोटाश + जिंक)"
+        },
+        {
+          "time": "16:20",
+          "title": "7. तना छेदक, भूरा फुदका (BPH) एवं झुलसा रोग नियंत्रण"
+        },
+        {
+          "time": "19:50",
+          "title": "8. कटाई, मड़ाई एवं 12% नमी पर सुरक्षित भंडारण"
+        }
+      ],
+      "sections": {
+        "overview": "धान (Rice / Paddy) भारत की सबसे प्रमुख खाद्यान्न फसल है। इसे खरीफ और रबी दोनों मौसमों में सफलतापूर्वक उगाया जाता है। धान की खेती के लिए 25-35°C तापमान और पर्याप्त जल उपलब्धता आवश्यक है।",
+        "varieties": "प्रमुख उन्नत किस्में: बीपीटी-5204 (सांभा महसूरी), एमटीयू-1010, एमटीयू-1061, पूसा बासमती-1509, आरएनआर-15048 (तेलंगाना सोना)।",
+        "seedTreatment": "बीज दर: 20-25 किग्रा प्रति एकड़। बीजों को कार्बेन्डाजिम 50% WP (2.5 ग्राम प्रति किग्रा) या ट्राइकोडर्मा विरिडी (10 ग्राम प्रति किग्रा) से उपचारित करें।",
+        "nursery": "एक एकड़ के लिए 10 बिस्वा (400 वर्ग मीटर) नर्सरी क्षेत्र पर्याप्त है। 21-25 दिन की स्वस्थ पौध रोपाई के लिए सर्वोत्तम है।",
+        "puddling": "खेत में 5 सेमी पानी भरकर 2-3 बार रोटावेटर से जुताई (कद्दू) करें ताकि जल रिसाव कम हो। खेत को पाटा लगाकर समतल करें।",
+        "transplanting": "प्रति थान 2-3 पौधे 2-3 सेमी गहराई पर लगाएं। कतार से कतार 20 सेमी और पौधे से पौधे 15 सेमी की दूरी रखें।",
+        "irrigation": "कल्ले फूटने, बाली निकलने और दाना भरते समय खेत में नमी की कमी न होने दें। पानी बचाने के लिए AWD तकनीक अपनाएं।",
+        "nutrition": "उर्वरक मात्रा (प्रति एकड़): 45 किग्रा नाइट्रोजन (100 किग्रा यूरिया), 24 किग्रा फास्फोरस (50 किग्रा डीएपी), 20 किग्रा पोटाश और 20 किग्रा जिंक सल्फेट (21%) डालें।",
+        "pestManagement": "तना छेदक के लिए कारटाप हाइड्रोक्लोराइड 50% SP (2 ग्राम/लीटर) या क्लोरेंट्रानिलीप्रोल (0.3 मिली/लीटर) का छिड़काव करें। भूरा फुदका (BPH) के लिए पाइमेट्रोजिन 50% WDG (0.6 ग्राम/लीटर) डालें। झुलसा रोग हेतु ट्राइसाइक्लाजोल 75% WP (0.6 ग्राम/लीटर) छिड़कें।",
+        "harvesting": "जब बाली के 85-90% दाने सुनहरे हो जाएं तब कटाई करें। दानों को सुखाकर 12-14% नमी पर सुरक्षित रखें।"
+      }
+    }
+  },
+  "farmer_roadmap": [
+    {
+      "stage": 1,
+      "days": "Day 0 - 15",
+      "titleTe": "దశ 1: ముందస్తు ప్రణాళిక & భూసార పరీక్ష (Pre-Sowing & Soil Testing)",
+      "titleEn": "Stage 1: Pre-Sowing Planning & Soil Testing (Day 0 - 15)",
+      "icon": "🧪",
+      "color": "emerald",
+      "descTe": "గత పంట కోసిన తర్వాత పొలంలో వేసవి లోతు దుక్కులు చేయాలి. దీనివల్ల నేలలో నిద్రావస్థలో ఉన్న పురుగుల కోశాలు, తెగుళ్ల శిలీంధ్రాలు సూర్యరశ్మికి నశిస్తాయి. గ్రామ వ్యవసాయ సహాయకుడు (VAA) లేదా సాయిల్ టెస్టింగ్ ల్యాబ్ ద్వారా భూసార పరీక్ష చేయించి, నేల pH (6.5-7.5) మరియు సేంద్రియ కర్బనం తెలుసుకోవాలి.",
+      "descEn": "Perform deep summer ploughing immediately after the previous harvest to expose dormant pests and pathogen spores to sunlight. Collect zig-zag soil samples from 8-10 spots across the field and submit them to your local Rythu Bharosa Kendra (RBK) to check soil pH, available N-P-K, and organic carbon percentage.",
+      "dosTe": "పచ్చిరొట్ట ఎరువులైన జీలుగ లేదా జనుము విత్తనాలు ఎకరాకు 15-20 కిలోలు చల్లి, 45 రోజుల పూత దశలో కలియదున్నండి.",
+      "dosEn": "Sow green manure crops like Dhaincha or Sunnhemp (15-20 kg/acre) and incorporate into soil at 45 days flowering stage."
+    },
+    {
+      "stage": 2,
+      "days": "Day 15 - 35",
+      "titleTe": "దశ 2: విత్తన శుద్ధి & నారుమడి యాజమాన్యం (Seed Treatment & Nursery)",
+      "titleEn": "Stage 2: Seed Selection, Bio-Treatment & Nursery Raising (Day 15 - 35)",
+      "icon": "🌱",
+      "color": "green",
+      "descTe": "విశ్వవిద్యాలయం గుర్తింపు పొందిన నాణ్యమైన విత్తనాలను మాత్రమే ఎంచుకోవాలి. ఎకరాకు 20-25 కిలోల విత్తనాలకు కిలోకు 2.5 గ్రా. కార్బండైజిమ్ లేదా 10 గ్రా. ట్రైకోడెర్మా విరిడే పొడితో విత్తన శుద్ధి చేయాలి. ఎత్తు నారుమడి (Raised Bed) తయారు చేసి 20-25 రోజుల ముదురు కాని లేత నారును మాత్రమే సిద్ధం చేసుకోవాలి.",
+      "descEn": "Select certified seeds from agricultural universities (e.g. BPT-5204, MTU-1061). Soak in water for 24 hours. Treat with Carbendazim 50% WP @ 2.5 g/kg seed or bio-agent Trichoderma viride @ 10 g/kg to eliminate seed-borne blast and root rot. Maintain 1-2 cm shallow water in nursery.",
+      "dosTe": "విత్తన శుద్ధి తప్పనిసరి. నారు పీకడానికి 7 రోజుల ముందు నారుమడిలో కార్బోఫ్యూరాన్ 3G గుళికలు వేస్తే తొలిదశ పురుగులు రావు.",
+      "dosEn": "Never skip seed treatment. Apply Carbofuran 3G granules in the nursery 7 days prior to pulling seedlings to grant systemic pest protection."
+    },
+    {
+      "stage": 3,
+      "days": "Day 35 - 45",
+      "titleTe": "దశ 3: ప్రధాన పొలం దమ్ము & నాట్లు (Main Field Puddling & Transplanting)",
+      "titleEn": "Stage 3: Main Field Puddling & Line Transplanting (Day 35 - 45)",
+      "icon": "🚜",
+      "color": "blue",
+      "descTe": "పొలంలో 5 సెం.మీ నీరు ఉంచి రొటవేటర్‌తో 2-3 సార్లు దమ్ము చేసి, చెక్క పలకతో చదును చేయాలి. ఆఖరి దమ్ములో సిఫార్సు చేసిన మొత్తం భాస్వరం (DAP), మూడో వంతు పొటాష్ మరియు 20 కిలోల జింక్ సల్ఫేట్ వేయాలి. సాళ్ళ మధ్య 20 సెం.మీ, కుదుళ్ళ మధ్య 15 సెం.మీ దూరం ఉండేలా కుదురుకు 2-3 ఆరోగ్యకరమైన పిలకలను 2-3 సెం.మీ లోతులోనే నాటాలి.",
+      "descEn": "Puddle standing water (5 cm) 2-3 times with a rotavator to build a hard subsoil pan that prevents water and nutrient leakage. Apply all DAP, 1/3rd MOP, and 20 kg Zinc Sulphate (21%) as basal dose. Transplant 2-3 seedlings per hill at shallow 2-3 cm depth with 20x15 cm spacing (33 hills/sqm).",
+      "dosTe": "నారును లోతుగా నాటకూడదు; లోతుగా నాటితే పిలకలు రావడం బాగా ఆలస్యమవుతుంది.",
+      "dosEn": "Avoid deep planting; seedlings planted deeper than 3 cm develop fewer tillers and suffer root suffocation."
+    },
+    {
+      "stage": 4,
+      "days": "Day 45 - 65",
+      "titleTe": "దశ 4: ప్రారంభ పెరుగుదల & కలుపు యాజమాన్యం (Vegetative Growth & Weeding)",
+      "titleEn": "Stage 4: Early Vegetative Growth & Weed Control (Day 45 - 65)",
+      "icon": "🌿",
+      "color": "emerald",
+      "descTe": "నాటిన 3-5 రోజుల్లో తగిన కలుపు మందు పిచికారీ చేయాలి లేదా నాటిన 15-20 రోజులకు కోనో-వీడర్ (Cono-weeder) నడపాలి. కోనో-వీడర్ వల్ల కలుపు మొక్కలు మట్టిలో కలిసిపోయి ఎరువుగా మారడమే కాక నేలలో ఆక్సిజన్ అంది వేర్లు బలంగా విస్తరిస్తాయి. మొదటి దఫా యూరియాను నాటిన 20 రోజులకు వేయాలి.",
+      "descEn": "Apply pre-emergence herbicide within 3-5 days of transplanting or operate a motorized/manual Cono-weeder at 15-20 days. Cono-weeding incorporates weeds as green compost and aerates root zones, accelerating root branching. Apply first top-dressing of Urea at 20-25 days.",
+      "dosTe": "ఎరువులు వేసేటప్పుడు పొలంలో నీటిని తగ్గించి వేస్తే ఎరువులు కొట్టుకుపోకుండా నేలకే అందుతాయి.",
+      "dosEn": "Drain standing water before applying granular fertilizers to ensure nutrient uptake by roots rather than surface runoff."
+    },
+    {
+      "stage": 5,
+      "days": "Day 65 - 85",
+      "titleTe": "దశ 5: పిలకల దశ & ఆల్టర్నేట్ వెట్టింగ్ (Active Tillering & AWD Irrigation)",
+      "titleEn": "Stage 5: Active Tillering & AWD Water Management (Day 65 - 85)",
+      "icon": "💧",
+      "color": "cyan",
+      "descTe": "ఈ దశలో పిలకలు విపరీతంగా వస్తాయి. నిరంతరం నీరు నిలబెట్టకుండా 'ఆల్టర్నేట్ వెట్టింగ్ అండ్ డ్రైయింగ్' (AWD) పద్ధతిని పాటించాలి. పొలంలో 2-3 సెం.మీ నీరు ఉంచి, అది ఇంకిపోయి నేలపై సన్నని పగుళ్లు రాకముందే తిరిగి తడి ఇవ్వాలి. దీనివల్ల 30% నీరు ఆదా అవ్వడమే కాక కాండం లావుగా మారి పంట పడిపోదు. రెండవ దఫా యూరియా వేయాలి.",
+      "descEn": "Install a perforated plastic field pipe (AWD tube). Irrigate to 5 cm depth only when water drops 15 cm below ground level. AWD saves 30% irrigation water, cuts methane emissions, and prevents stem lodging. Apply second split of Nitrogen and remaining Potash at maximum tillering.",
+      "dosTe": "పొలంలో ప్రతి 2 మీటర్లకు ఒక అడుగు వెడల్పున పాయలు (Alleyways) తీయడం వల్ల గాలి, వెలుతురు సోకి సుడిదోమ రాదు.",
+      "dosEn": "Cut 30 cm wide alleyways every 2 meters in the field to provide aeration and sun penetration, keeping Brown Planthoppers away."
+    },
+    {
+      "stage": 6,
+      "days": "Day 85 - 110",
+      "titleTe": "దశ 6: చిరుపొట్ట & పూత దశలో సస్యరక్షణ (Panicle Emergence & Flowering IPM)",
+      "titleEn": "Stage 6: Panicle Emergence, Flowering & Pest IPM (Day 85 - 110)",
+      "icon": "🐛",
+      "color": "rose",
+      "descTe": "పంట జీవిత చక్రంలో ఇది అత్యంత కీలకమైన దశ. కాండం తొలిచే పురుగు నివారణకు ఎకరాకు 8 లింగాకర్షక బుట్టలు (Pheromone Traps) అమర్చాలి. తెల్లకంకులు కనిపిస్తే కార్టాప్ హైడ్రోక్లోరైడ్ 50% SP (2 గ్రా./లీ.) లేదా క్లోరాంట్రానిలిప్రోల్ (0.3 మి.లీ./లీ.) పిచికారీ చేయాలి. ఆకులపై అగ్గితెగులు మచ్చలు ఉంటే ట్రైసైక్లాజోల్ (0.6 గ్రా./లీ.) పిచికారీ చేయాలి. పూత దశలో నీటి ఎద్దడి రాకుండా చూడాలి.",
+      "descEn": "Most critical developmental window. Zero moisture stress should occur during flowering. Erect 8 pheromone traps per acre for Yellow Stem Borer monitoring. Spray Cartap Hydrochloride 50% SP @ 2 g/L or Chlorantraniliprole @ 0.3 ml/L if whiteheads appear. Spray Tricyclazole 75% WP @ 0.6 g/L if blast lesions appear.",
+      "dosTe": "పూత విచ్చుకునే ఉదయం 9 నుండి 11 గంటల సమయంలో ఎటువంటి పురుగుమందుల స్ప్రేలు చేయకూడదు (పరాగసంపర్కం దెబ్బతింటుంది).",
+      "dosEn": "Never spray chemicals between 9:00 AM and 11:30 AM during active anthesis/flowering to protect natural pollination."
+    },
+    {
+      "stage": 7,
+      "days": "Day 110 - 125",
+      "titleTe": "దశ 7: గింజ పాలుపోసుకునే దశ & నీటి తొలగింపు (Grain Filling & Drainage)",
+      "titleEn": "Stage 7: Grain Milk Stage & Terminal Drainage (Day 110 - 125)",
+      "icon": "🌾",
+      "color": "amber",
+      "descTe": "కంకిలోని గింజలు పాలు పోసుకుని క్రమంగా గట్టిపడతాయి. గింజ బరువు పెరగడానికి 0-0-50 పొటాషియం సల్ఫేట్ 1% ద్రావణాన్ని పిచికారీ చేయవచ్చు. కోతకు సరిగ్గా 10-12 రోజుల ముందు పొలంలోని నీటిని పూర్తిగా తీసివేయాలి (Terminal Drainage). దీనివల్ల నేల గట్టిపడి కోత యంత్రాలు (Harvesters) సులభంగా నడవడానికి వీలవుతుంది మరియు పంట ఏకకాలంలో పండుతుంది.",
+      "descEn": "Grains transition from milk to dough stage. Foliar spray of Potassium Sulphate (0-0-50) @ 10 g/L enhances grain test weight and luster. Drain all standing water 10-12 days prior to anticipated harvest. This firms the ground for heavy combine harvesters and enforces uniform grain ripening.",
+      "dosTe": "కోతకు 10 రోజుల ముందే నీటిని తీసివేయడం వల్ల గింజలు రాలిపోకుండా, పాలు కట్టకుండా నాణ్యంగా ఉంటాయి.",
+      "dosEn": "Execute terminal drainage 10 days before harvest to avoid grain discoloration, mould, and lodging."
+    },
+    {
+      "stage": 8,
+      "days": "Day 125 - 140",
+      "titleTe": "దశ 8: కోత, నూర్పిడి & మార్కెటింగ్ (Harvesting, Sun Drying & MSP Sale)",
+      "titleEn": "Stage 8: Harvesting, Threshing, Hermetic Storage & Market Sale (Day 125 - 140)",
+      "icon": "💰",
+      "color": "emerald",
+      "descTe": "కంకిలో 85-90% గింజలు బంగారు పసుపు రంగులోకి మారినప్పుడు కోయాలి. కంబైన్డ్ హార్వెస్టర్ ద్వారా తక్కువ ఖర్చుతో కోత, నూర్పిడి పూర్తి చేయవచ్చు. కోసిన ధాన్యాన్ని కళ్లంలో 2-3 రోజులు పలుచగా ఆరబెట్టి, తేమ 12-14% కి తగ్గిన తర్వాత మాత్రమే నిల్వ చేయాలి. తేమ ఎక్కువైతే పురుగు, బూజు పడుతుంది. ధాన్యాన్ని ప్రభుత్వం ప్రకటించిన మద్దతు ధరకు (MSP ₹2,300/క్వింటా) రైతు భరోసా కేంద్రం లేదా e-NAM మార్కెట్లో విక్రయించాలి.",
+      "descEn": "Harvest when 85-90% grains turn golden yellow with 20% moisture. Combine harvesters perform cutting, threshing, and cleaning simultaneously. Sun dry the threshed grain on tarpaulins for 2-3 days until moisture drops to 12-14%. Store in hermetic SuperGrain bags or clean metal silos. Sell at government Minimum Support Price (MSP) through e-NAM.",
+      "dosTe": "ధాన్యంలో తేమ 12-14% ఉన్నప్పుడు మాత్రమే గోనె సంచులలో నింపండి; తడి ధాన్యం నిల్వ చేస్తే రంగు మారి నూక శాతం పెరుగుతుంది.",
+      "dosEn": "Ensure grain moisture is strictly below 14% before storage; damp grain leads to fungal mycotoxins and milling breakage."
+    }
+  ]
+}
