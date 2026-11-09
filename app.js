@@ -1,0 +1,10 @@
+const area=document.querySelector("#area"),rate=document.querySelector("#rate"),unit=document.querySelector("#unit"),result=document.querySelector("#result");
+document.querySelector("#calculate").addEventListener("click",()=>{const a=Number(area.value),r=Number(rate.value);if(!Number.isFinite(a)||!Number.isFinite(r)||a<=0||r<=0){result.textContent="Enter a field area and seed rate greater than zero.";return;}const total=a*r;result.textContent=`Estimated seed quantity: ${total.toLocaleString(undefined,{maximumFractionDigits:2})} kg`;});
+const title=document.querySelector("#noteTitle"),body=document.querySelector("#noteBody"),list=document.querySelector("#notesList");
+function getNotes(){try{return JSON.parse(localStorage.getItem("agrimitra-notes")||"[]")}catch{return []}}
+function renderNotes(){const notes=getNotes();list.innerHTML=notes.length?notes.map((n,i)=>`<article class="note-item"><b>${escapeHTML(n.title)}</b><p>${escapeHTML(n.body)}</p><small>${new Date(n.created).toLocaleString()}</small> <button data-delete="${i}" aria-label="Delete note">Delete</button></article>`).join(""):"<p>No field notes saved yet.</p>";}
+function escapeHTML(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+document.querySelector("#saveNote").addEventListener("click",()=>{if(!title.value.trim()||!body.value.trim()){alert("Add a title and a note first.");return;}const notes=getNotes();notes.unshift({title:title.value.trim(),body:body.value.trim(),created:Date.now()});localStorage.setItem("agrimitra-notes",JSON.stringify(notes.slice(0,30)));title.value="";body.value="";renderNotes();});
+list.addEventListener("click",e=>{const b=e.target.closest("[data-delete]");if(!b)return;const notes=getNotes();notes.splice(Number(b.dataset.delete),1);localStorage.setItem("agrimitra-notes",JSON.stringify(notes));renderNotes();});
+document.querySelector(".menu-btn").addEventListener("click",()=>document.querySelector(".topbar nav").classList.toggle("open"));
+renderNotes();
